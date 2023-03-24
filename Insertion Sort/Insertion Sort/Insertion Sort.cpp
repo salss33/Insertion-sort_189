@@ -3,3 +3,11 @@ using namespace std;
 
 int arr[20];                                     // Membuat Array dengan panjang data 20
 int n;                                           // Membuat variable inputan n
+
+void input() {                 // Procedure input
+	while (true)
+	{
+		cout << "Masukan Jumlah Data Pada Array : "; // Membuat inputan jumlah element Array
+		cin >> n;                                    // Memanggil variable inputan n
+
+		
