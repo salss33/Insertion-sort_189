@@ -18,4 +18,11 @@ void input() {                 // Procedure input
 			cout << "\nArray yang anda masukan maksimal 20 elemen.\n";    // Menampilkan pesan jika data lebih dari 20
 		}
 	}
+	cout << endl;                                    // Membuat jarak per baris program
+	cout << "==============" << endl;                // Membuat tampilan susunan data element array
+	cout << "Masukan Element Array" << endl; 
+	cout << "==============" << endl;
+
+
+
     
