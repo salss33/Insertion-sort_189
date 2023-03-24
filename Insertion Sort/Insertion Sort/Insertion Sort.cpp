@@ -60,10 +60,11 @@ void insertionsort() {                 // Procedure insertiontsort
 }
 cout << "\nPass " << i << ": "; // Output ke layar
 for (int k = 0; k < n; k++) {     // Lopping nilai k dimulai dari 0 hingga n-1
-	   cout << arr[k] << " ";       // Output ke layar
+	cout << arr[k] << " ";       // Output ke layar
 }
 	}
-int main()
+
+	int main()
 	{
 		input();                  // Memanggil input
 		insertionsort();            // Memanggil insertionsort
