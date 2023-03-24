@@ -52,7 +52,7 @@ void insertionsort() {                 // Procedure insertiontsort
 		arr[j + 1] = temp;              // 5. simpan nilai temp ke dalam arr[j+1
 
 
-		cout << "\nPass " << i << ": "; // Output ke layar
+		cout << "\nPass " << i << ": ";   // Output ke layar
 		for (int k = 0; k < n; k++) {     // Lopping nilai k dimulai dari 0 hingga n-1
 			cout << arr[k] << " ";       // Output ke layar
 		}
@@ -60,6 +60,12 @@ void insertionsort() {                 // Procedure insertiontsort
 }
 cout << "\nPass " << i << ": "; // Output ke layar
 for (int k = 0; k < n; k++) {     // Lopping nilai k dimulai dari 0 hingga n-1
-	cout << arr[k] << " ";       // Output ke layar
+	   cout << arr[k] << " ";       // Output ke layar
 }
+	}
+int main()
+	{
+		input();                  // Memanggil input
+		insertionsort();            // Memanggil insertionsort
+		display();                // Memanggil display
 	}
