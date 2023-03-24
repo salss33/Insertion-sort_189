@@ -49,13 +49,6 @@ void insertionsort() {                 // Procedure insertiontsort
 			j--;                        // 4b. Decrement nilai j by 1
 		}
 
-
-		
-
-
-
-
-		 
-
-
-		 
+		arr[j + 1] = arr[j];               // 4a. simpan arr[j] ke dalam variable arr[j+1]
+		j--;                        // 4b. Decrement nilai j by 1
+	}
