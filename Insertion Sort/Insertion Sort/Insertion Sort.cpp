@@ -16,3 +16,6 @@ void input() {                 // Procedure input
 		else
 		{
 			cout << "\nArray yang anda masukan maksimal 20 elemen.\n";    // Menampilkan pesan jika data lebih dari 20
+		}
+	}
+    
